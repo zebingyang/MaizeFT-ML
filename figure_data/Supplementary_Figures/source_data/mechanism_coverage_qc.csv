@@ -1,0 +1,10 @@
+schema_version,display_order,gene_id_v5,trait,prediction_status,network_layer_coverage_n_of_4,network_layer_coverage_fraction,network_layers_assessable,tf_evidence_assessable,tissue_evidence_assessable,annotation_evidence_assessable,trait_match_assessable,shortest_path_available,top_mechanism_sensitivity_stability,top_vs_runner_up_margin,top_mechanism_specificity,network_qc,tissue_qc,function_annotation_qc
+MaizeGeneXAI_mechanism_output_schema_v2.0,1,Zm00001eb349860,DTA,NETWORK_RANKED,2,0.5,RNA;RIBO,1,1,1,1,1,1.0,10.65,TOP_MECHANISM_SEPARATED,PASS,PASS_BOTH_OMICS,PASS
+MaizeGeneXAI_mechanism_output_schema_v2.0,2,Zm00001eb303670,DTS,DESCRIPTIVE_ONLY,0,0.0,,1,1,1,1,0,,0.0,TIED_TOP_TWO,PASS,PASS_BOTH_OMICS,PASS
+MaizeGeneXAI_mechanism_output_schema_v2.0,3,Zm00001eb325090,DTS,NETWORK_RANKED,1,0.25,CHIA,1,1,1,1,1,1.0,4.86,LOW_TOP_TWO_SEPARATION,PASS,PASS_BOTH_OMICS,PASS
+MaizeGeneXAI_mechanism_output_schema_v2.0,4,Zm00001eb325140,DTS,NETWORK_RANKED,2,0.5,RNA;PPI,1,1,1,1,1,1.0,8.99,TOP_MECHANISM_SEPARATED,PASS,PASS_BOTH_OMICS,PASS
+MaizeGeneXAI_mechanism_output_schema_v2.0,5,Zm00001eb325180,DTS,NETWORK_RANKED,4,1.0,CHIA;RNA;RIBO;PPI,1,1,1,1,1,0.667,3.44,LOW_TOP_TWO_SEPARATION,PASS,PASS_BOTH_OMICS,PASS
+MaizeGeneXAI_mechanism_output_schema_v2.0,6,Zm00001eb349850,DTS,UNRESOLVED,0,0.0,,0,0,0,0,0,,,UNRESOLVED,NOT_ASSESSABLE,NOT_ASSESSABLE,NOT_ASSESSABLE
+MaizeGeneXAI_mechanism_output_schema_v2.0,7,Zm00001eb202620,ASI,NETWORK_RANKED,1,0.25,RIBO,1,1,1,1,1,1.0,5.64,TOP_MECHANISM_SEPARATED,PASS,PASS_BOTH_OMICS,PASS
+MaizeGeneXAI_mechanism_output_schema_v2.0,8,Zm00001eb202630,ASI,DESCRIPTIVE_ONLY,0,0.0,,1,1,1,1,0,,5.0,TOP_MECHANISM_SEPARATED,PASS,PASS_BOTH_OMICS,PASS
+MaizeGeneXAI_mechanism_output_schema_v2.0,9,Zm00001eb341290,ASI,NETWORK_RANKED,2,0.5,RNA;PPI,1,1,1,1,1,0.667,0.76,LOW_TOP_TWO_SEPARATION,PASS,PASS_BOTH_OMICS,PASS

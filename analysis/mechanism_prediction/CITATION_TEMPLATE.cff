@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this workflow, please cite the associated article and archived software release."
+title: "Explainable public-data workflow for maize candidate-gene flowering-time mechanism inference"
+type: software
+authors:
+  - family-names: "REPLACE_WITH_AUTHOR_FAMILY_NAME"
+    given-names: "REPLACE_WITH_AUTHOR_GIVEN_NAME"
+version: "1.0.0"
+date-released: "REPLACE_WITH_RELEASE_DATE_YYYY-MM-DD"
+repository-code: "REPLACE_WITH_ARCHIVE_OR_REPOSITORY_URL"
+license: "REPLACE_WITH_SELECTED_LICENSE"

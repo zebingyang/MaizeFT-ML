@@ -1,0 +1,30 @@
+# Supplementary figures: flowering-function prediction and mechanism inference
+
+The numbering SF1–SF4 is provisional and specific to this module; renumber these figures to follow the other supplementary figures in the manuscript. These figures supplement Fig. 6 and reproduce archived results without model refitting or mechanism rescoring.
+
+## SF1 | Out-of-fold discrimination, calibration and supplementary model diagnostics
+
+**a,b,** Pooled out-of-fold (OOF) ROC and precision–recall curves for six classifiers, using one held-out prediction per gene per model (130 genes: 65 known flowering-time genes and 65 reference-negative genes). Dashed lines indicate chance discrimination in a and the positive-class prevalence (0.5) in b. **c,** Calibration based on five quantile bins of pooled OOF probabilities; the dashed diagonal denotes perfect calibration. **d–f,** F1 and Matthews correlation coefficient (MCC) at a probability threshold of 0.5, and Brier score. Small points show the five outer-fold results; diamonds and error bars show mean ± s.d. PR-AUC in the archived analysis is average precision, not trapezoidal PR area. Pooled OOF curves differ from the mean outer-fold scores used for model selection in Fig. 6. Cross-validation folds are not independent biological replicates. Reference negatives are training labels, not proof of absence of flowering function.
+
+## SF2 | Candidate prediction variability and feature-ablation responses
+
+**a,** Mean predicted probabilities from the five outer-fold models of each algorithm for all nine candidates. Alternative models are shown for comparison and are not averaged into a new ensemble. **b,** Individual predictions from the five locked L2-LR fold models. **c,** Mean absolute probability change after replacing one feature at a time with its outer-training-fold median, averaged within each feature block and across the five models. Values are shown in units of 0.001 probability. Blocks comprise 19 PPI, 10 shortest-distance, 32 transcriptome and 22 translatome features; each expression block includes one missingness indicator. Ablation effects are neither additive SHAP values nor causal effects. Row order follows the original locked-model ranking. Reduced network evidence affects Zm00001eb349860, Zm00001eb202620, Zm00001eb325090, Zm00001eb202630 and Zm00001eb303670; Zm00001eb349850 has low network and expression-feature coverage. Missingness and imputation can influence both probabilities and ablation responses.
+
+## SF3 | Mechanism profiles and public-evidence assessability across all candidates
+
+**a,** L1 integrated mechanism-support scores for the six network-ranked candidates. **b,** Separate descriptive-only profiles for two candidates without assessable network propagation. Although both scales span 0–100, descriptive scores are not interchangeable with integrated scores. Black outlines mark within-gene maxima, including ties in the retained precision. **c,** Evidence assessability for all nine genes (1, assessable; 0, unavailable). TF and annotation assessability does not imply a positive regulatory edge or a supporting functional annotation. Zm00001eb349850 remains unresolved and has no reportable mechanism score. RNA, RNA coexpression; RIBO, Ribo-seq cotranslation; CHIA, ChIA-PET contact network. M1, environmental/light signaling; M2, florigen/floral transition; M3, age/autonomous regulation; M4, hormone/stress response; M5, meristem/reproductive development; M6, chromatin/RNA regulation. Scores prioritize alternative mechanisms within a gene, not causal genes across rows. The archived integrated score retains network, TF, tissue, annotation and heuristic trait-match weights of 0.60, 0.15, 0.15, 0.05 and 0.05, respectively; the trait-match term is not independently validated biological evidence.
+
+## SF4 | Sensitivity of network-based mechanism support to layer weighting
+
+**a–f,** Degree-adjusted multilayer network scores for six mechanisms in each network-ranked candidate. Points denote equal-layer-weight scores; horizontal ranges span the existing three weighting schemes (equal, PPI-biased and expression-biased), with weights renormalized across assessable layers. These ranges are sensitivity ranges, not confidence intervals. Orange marks the primary mechanism selected by the original integrated score. Headers report network-layer coverage and retention of that integrated top mechanism across the three schemes. Layer weights in CHIA/RNA/RIBO/PPI order were 0.25/0.25/0.25/0.25, 0.20/0.20/0.20/0.40 and 0.10/0.40/0.40/0.10. One-layer cases necessarily have unchanged scores after renormalization; stability under weighting alone does not establish biological validity. Lack of an interval may reflect an invariant score or rounding. Network association and propagation do not establish regulatory direction or a causal molecular mechanism.
+
+## 中文图名与使用说明
+
+- **SF1：六类模型的折外判别、校准及补充评价。** 展示全部130个训练基因的OOF曲线，以及五个外层折的F1、MCC和Brier分数；不以这些附图重新选择模型。
+- **SF2：9个候选基因预测的跨模型、跨折变化及特征响应。** 前两部分展示预测一致性，第三部分展示单特征替换造成的概率变化；不是SHAP值，也不是因果效应。
+- **SF3：全部候选基因的机制谱与公共证据可评估性。** 分开呈现网络支持型、描述型和未解析型结果；0/1表示能否评估，不表示已证实或未证实机制。
+- **SF4：机制网络得分对网络层权重的敏感性。** 横线为三种既有权重方案的最小—最大范围，不是置信区间；单网络层条件下稳定性具有结构性原因。
+
+## Methodological scope for the manuscript
+
+The archived training report specifies five outer folds and four preassigned inner gene groups within each outer training set. Inner hyperparameter tuning reused the outer-fold-specific shortest-distance features; shortest-distance features were not rebuilt for every inner split. Therefore, do not describe this implementation as fully nested five-by-five feature reconstruction. These supplementary figures visualize the existing evaluation and do not fix that limitation, establish independence of network-derived evidence from function prediction, or provide external experimental validation. Retaining the original scores does not validate their heuristic weights or curated seed classifications. No NAM genetic evidence or new experimental evidence is introduced in these figures.

@@ -1,0 +1,81 @@
+{
+  "candidate9_mechanism_query.tsv": {
+    "parts": [
+      "inputs/network_parts/candidate9_mechanism_query.tsv.gz.part000"
+    ],
+    "sha256": "e6ebbfcba011d627e75b8382cfa0361fabf4d3b8a9e2ab2b469ec356ac2eeabf",
+    "bytes": 357
+  },
+  "candidate9_tissue_context_evidence.tsv": {
+    "parts": [
+      "inputs/network_parts/candidate9_tissue_context_evidence.tsv.gz.part000"
+    ],
+    "sha256": "8458ea70371148e5e7fb56c0f632bf3d5dc4e100c47b867c59316efc846969bd",
+    "bytes": 597889
+  },
+  "FT_mechanism_ontology.tsv": {
+    "parts": [
+      "inputs/network_parts/FT_mechanism_ontology.tsv.gz.part000"
+    ],
+    "sha256": "722f89afbef96694ceef6d603a59fba11159ed2b6fb0fa2125ef2d0beb2522bc",
+    "bytes": 20433
+  },
+  "FT_mechanism_seed_annotations_v5.tsv": {
+    "parts": [
+      "inputs/network_parts/FT_mechanism_seed_annotations_v5.tsv.gz.part000"
+    ],
+    "sha256": "f4cfec9c0a1574fc9ef890030416ab6ddcbbf1acce374f9bcc2eb4e5f43bec42",
+    "bytes": 79317
+  },
+  "maize_chromatin_regulatory_edges_v5.tsv": {
+    "parts": [
+      "inputs/network_parts/maize_chromatin_regulatory_edges_v5.tsv.gz.part000"
+    ],
+    "sha256": "a6f946208b81dd17e57ba3bd75f1f4459312d70075499a8f74c51eb5e2d18fdf",
+    "bytes": 6956916
+  },
+  "maize_expression_sample_metadata.tsv": {
+    "parts": [
+      "inputs/network_parts/maize_expression_sample_metadata.tsv.gz.part000"
+    ],
+    "sha256": "c818402e6b73e76e2499a0446c4a3db85668913333d927db315fd33fa794036d",
+    "bytes": 63768
+  },
+  "maize_FT_multilayer_network_edges_v5.tsv": {
+    "parts": [
+      "inputs/network_parts/maize_FT_multilayer_network_edges_v5.tsv.gz.part000",
+      "inputs/network_parts/maize_FT_multilayer_network_edges_v5.tsv.gz.part001",
+      "inputs/network_parts/maize_FT_multilayer_network_edges_v5.tsv.gz.part002"
+    ],
+    "sha256": "fa33b6768e92acfe35d66d0cad199253e8c4e4ce9afce48cefc2fc7569038c04",
+    "bytes": 820836285
+  },
+  "maize_gene_function_annotations_v5.tsv": {
+    "parts": [
+      "inputs/network_parts/maize_gene_function_annotations_v5.tsv.gz.part000"
+    ],
+    "sha256": "b273441198cacecb936c58501b4d1c91bb8ec9622dcde4aeed0f486217c3d2d1",
+    "bytes": 82898614
+  },
+  "maize_gene_ID_mapping_v5.tsv": {
+    "parts": [
+      "inputs/network_parts/maize_gene_ID_mapping_v5.tsv.gz.part000"
+    ],
+    "sha256": "cdbbfeeaa5b78947ca4fd4837b07f0431a787b4db91fbf1fc1f71631d52df3a0",
+    "bytes": 25886546
+  },
+  "maize_multilayer_network_nodes_v5.tsv": {
+    "parts": [
+      "inputs/network_parts/maize_multilayer_network_nodes_v5.tsv.gz.part000"
+    ],
+    "sha256": "3affdf71aa57c53617ba9a62ff46ca2895f9b0fbb506be3cf65cbc4fac09e369",
+    "bytes": 33518297
+  },
+  "maize_TF_target_regulatory_edges_v5.tsv": {
+    "parts": [
+      "inputs/network_parts/maize_TF_target_regulatory_edges_v5.tsv.gz.part000"
+    ],
+    "sha256": "43b48a89dc451e5ccc939fd9af4d26bad7be6804a323a19d57e7f9b6f6de8e17",
+    "bytes": 390998226
+  }
+}

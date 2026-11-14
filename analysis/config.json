@@ -1,0 +1,19 @@
+{
+  "data_root": "../inputs",
+  "results_root": "../outputs/analysis",
+  "function_prediction": {
+    "enabled": true,
+    "training_file": "FT_training_feature_matrix.csv",
+    "candidate_file": "candidate9_feature_matrix.csv",
+    "output_subdir": "function_prediction",
+    "n_jobs": 1,
+    "bootstrap_repeats": 1000,
+    "permutation_repeats": 50
+  },
+  "mechanism_prediction": {
+    "enabled": true,
+    "input_dir": "../outputs/Mechanism_input",
+    "output_subdir": "mechanism_prediction",
+    "full_network_check": true
+  }
+}

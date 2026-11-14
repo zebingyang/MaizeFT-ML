@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "candidate_count_old": 9,
+  "candidate_count_new": 9,
+  "fields_compared": [
+    "prediction_status",
+    "top_mechanism_l1_id",
+    "primary_score_0_100",
+    "top_vs_runner_up_margin",
+    "sensitivity_top_mechanism_stability"
+  ],
+  "differences": [],
+  "row_counts_new": {
+    "candidate_summary": 9,
+    "l1_scores_long": 54,
+    "top_components_long": 45,
+    "top_evidence_paths": 9,
+    "direct_edges": 17,
+    "tissue_contexts": 24,
+    "coverage_qc": 9,
+    "mechanism_ontology_l1": 6,
+    "data_dictionary": 12,
+    "input_manifest": 11
+  }
+}

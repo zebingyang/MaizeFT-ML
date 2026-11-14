@@ -1,0 +1,4 @@
+Gene_ID_v5,Trait,Top_mechanism,Top_mechanism_name,Evidence_tier,Network_layers_assessable_n,Path_distance_edges,Path_node_sequence,Path_edge_layer_sequence,Terminal_seed_symbol,Directionality
+Zm00001eb349860,DTA,M2,Florigen and floral transition,EVIDENCE_TIER_C,2,1,Zm00001eb349860>Zm00001eb207450,RNA,ZmARF16,UNDIRECTED_ASSOCIATION_PATH
+Zm00001eb325180,DTS,M5,Meristem and reproductive development,EVIDENCE_TIER_C,4,2,Zm00001eb325180>Zm00001eb336290>Zm00001eb331880,RNA>RIBO,DLF1,UNDIRECTED_ASSOCIATION_PATH
+Zm00001eb341290,ASI,M6,Chromatin and RNA regulation,EVIDENCE_TIER_C,2,1,Zm00001eb341290>Zm00001eb155150,RNA,RBAP2,UNDIRECTED_ASSOCIATION_PATH

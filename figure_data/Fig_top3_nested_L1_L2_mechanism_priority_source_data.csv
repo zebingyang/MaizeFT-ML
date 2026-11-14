@@ -1,0 +1,31 @@
+﻿Gene_ID_v5,Trait,Level,Parent_L1_ID,Mechanism_ID,Mechanism_CN,Score_0_100,Score_type,Within_gene_rank,Gap_from_top_score_points,Is_top,Is_tied_top,Network_layers_assessable,Interpretation_limit
+Zm00001eb349860,DTA,L1,,M1,环境与光信号,59.642202175417324,Integrated_network_augmented,4,14.471305512022681,0,0,2,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb349860,DTA,L1,,M2,成花素与花转变,74.1135076874401,Integrated_network_augmented,1,-9.947598300641403e-14,1,0,2,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb349860,DTA,L1,,M3,内源年龄与自主通路,46.46805915572835,Integrated_network_augmented,6,27.645448531711658,0,0,2,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb349860,DTA,L1,,M4,激素与胁迫响应,63.465401432293405,Integrated_network_augmented,2,10.648106255146601,0,0,2,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb349860,DTA,L1,,M5,分生组织与生殖发育,53.2006275195176,Integrated_network_augmented,5,20.912880167922403,0,0,2,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb349860,DTA,L1,,M6,染色质与RNA调控,60.15435768297073,Integrated_network_augmented,3,13.959150004469272,0,0,2,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb349860,DTA,L2,M2,M2.1,成花素转录与产生,37.73681875,Descriptive_noncomparable,2,2.66593125,0,0,,Descriptive refinement only; no L2-specific network propagation was performed.
+Zm00001eb349860,DTA,L2,M2,M2.2,成花素运输与激活复合体,37.73681875,Descriptive_noncomparable,2,2.66593125,0,0,,Descriptive refinement only; no L2-specific network propagation was performed.
+Zm00001eb349860,DTA,L2,M2,M2.3,花转变整合因子与下游靶基因,40.40274999999999,Descriptive_noncomparable,1,7.105427357601002e-15,1,0,,Descriptive refinement only; no L2-specific network propagation was performed.
+Zm00001eb325180,DTS,L1,,M1,环境与光信号,49.052190557728736,Integrated_network_augmented,4,7.131996133085266,0,0,4,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb325180,DTS,L1,,M2,成花素与花转变,52.74669632751156,Integrated_network_augmented,2,3.4374903633024445,0,0,4,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb325180,DTS,L1,,M3,内源年龄与自主通路,50.24218861321593,Integrated_network_augmented,3,5.941998077598072,0,0,4,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb325180,DTS,L1,,M4,激素与胁迫响应,35.459304006450466,Integrated_network_augmented,6,20.724882684363536,0,0,4,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb325180,DTS,L1,,M5,分生组织与生殖发育,56.18418669081364,Integrated_network_augmented,1,3.623767952376511e-13,1,0,4,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb325180,DTS,L1,,M6,染色质与RNA调控,38.04504164921967,Integrated_network_augmented,5,18.139145041594332,0,0,4,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb325180,DTS,L2,M5,M5.1,SAM身份转换与生殖承诺,44.405162499999996,Descriptive_noncomparable,1,7.105427357601002e-15,1,1,,Descriptive refinement only; no L2-specific network propagation was performed.
+Zm00001eb325180,DTS,L2,M5,M5.2,花序分生组织、分枝与决定性,44.405162499999996,Descriptive_noncomparable,1,7.105427357601002e-15,1,1,,Descriptive refinement only; no L2-specific network propagation was performed.
+Zm00001eb325180,DTS,L2,M5,M5.3,雄花发育与散粉,22.583281250000002,Descriptive_noncomparable,3,21.82188125,0,0,,Descriptive refinement only; no L2-specific network propagation was performed.
+Zm00001eb325180,DTS,L2,M5,M5.4,雌花发育与吐丝,43.941725,Descriptive_noncomparable,2,0.46343750000000483,0,0,,Descriptive refinement only; no L2-specific network propagation was performed.
+Zm00001eb325180,DTS,L2,M5,M5.5,散粉—吐丝同步与ASI,44.405162499999996,Descriptive_noncomparable,1,7.105427357601002e-15,1,1,,Descriptive refinement only; no L2-specific network propagation was performed.
+Zm00001eb341290,ASI,L1,,M1,环境与光信号,46.26099446949602,Integrated_network_augmented,6,11.041711333571982,0,0,2,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb341290,ASI,L1,,M2,成花素与花转变,56.54670635550559,Integrated_network_augmented,2,0.7559994475624094,0,0,2,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb341290,ASI,L1,,M3,内源年龄与自主通路,51.122197089552245,Integrated_network_augmented,4,6.180508713515756,0,0,2,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb341290,ASI,L1,,M4,激素与胁迫响应,54.15598994190843,Integrated_network_augmented,3,3.1467158611595707,0,0,2,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb341290,ASI,L1,,M5,分生组织与生殖发育,48.37244747896777,Integrated_network_augmented,5,8.93025832410023,0,0,2,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb341290,ASI,L1,,M6,染色质与RNA调控,57.30270580306829,Integrated_network_augmented,1,-2.913225216616411e-13,1,0,2,Within-gene L1 mechanism support; not a causal probability or cross-gene ranking.
+Zm00001eb341290,ASI,L2,M6,M6.1,组蛋白与染色质修饰,27.0584875,Descriptive_noncomparable,2,7.225549999999998,0,0,,Descriptive refinement only; no L2-specific network propagation was performed.
+Zm00001eb341290,ASI,L2,M6,M6.2,DNA甲基化、顺式元件与染色质可及性,27.0584875,Descriptive_noncomparable,2,7.225549999999998,0,0,,Descriptive refinement only; no L2-specific network propagation was performed.
+Zm00001eb341290,ASI,L2,M6,M6.3,RNA加工、剪接与稳定性,34.2840375,Descriptive_noncomparable,1,0.0,1,1,,Descriptive refinement only; no L2-specific network propagation was performed.
+Zm00001eb341290,ASI,L2,M6,M6.4,小RNA生物合成与活性,34.2840375,Descriptive_noncomparable,1,0.0,1,1,,Descriptive refinement only; no L2-specific network propagation was performed.

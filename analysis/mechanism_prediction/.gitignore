@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+pipeline_test_output/
